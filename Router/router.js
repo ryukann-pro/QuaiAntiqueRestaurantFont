@@ -48,12 +48,13 @@ const LoadContentPage = async () => {
 
 // Fonction pour gérer les événements de routage (clic sur les liens)
 const routeEvent = (event) => {
-  event = event || window.event;
-  event.preventDefault();
-  // Mise à jour de l'URL dans l'historique du navigateur
-  window.history.pushState({}, "", event.target.href);
-  // Chargement du contenu de la nouvelle page
-  LoadContentPage();
+event.preventDefault();
+
+const url = event.currentTarget.getAttribute("href");
+
+window.history.pushState({}, "", url);
+
+LoadContentPage();
 };
 
 // Gestion de l'événement de retour en arrière dans l'historique du navigateur
