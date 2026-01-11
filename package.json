@@ -1,0 +1,25 @@
+{
+  "name": "quaiantiquerestaurantfont",
+  "version": "1.0.0",
+  "description": "Ce site est un site vitrine pour le restaurant Quai Antique",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryukann-pro/QuaiAntiqueRestaurantFont.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ryukann-pro/QuaiAntiqueRestaurantFont/issues"
+  },
+  "homepage": "https://github.com/ryukann-pro/QuaiAntiqueRestaurantFont#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.13.1"
+  }
+}
