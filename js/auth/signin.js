@@ -13,7 +13,7 @@ function checkCredentials() {
     const token = "azazazazazazazazazazazazaazazazazazazazaz";
     setToken(token);
     //placer ce token en cookie
-
+    setCookie("role","client",7);
     window.location.replace("/");
   } else {
     emailInput.classList.add("is-invalid");
